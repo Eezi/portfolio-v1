@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/e54e07329c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+          <a  onclick="openSlideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+            </svg>
+          </a>
+        </span>
+    </nav>
+    
+      <div id="side-menu" class="side-nav">
+        <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#section1">HOME</a>
+        <a href="#section2">ABOUT</a>
+        <a href="#section3">EXPERIENCE</a>
+      </div>
+<div class="etusivu" id="section1">
+    <nav class="navi">
+       
+        <ul>
+            <li>
+                <a href="#section1">HOME</a>
+            </li>
+            <li>
+                <a href="#section2">ABOUT</a>
+            </li>
+            <li>
+                <a href="#section3">EXPERIENCE</a>
+            </li>         
+        </ul>  
+        
+    </nav>
+        <div class="teksti">
+            <h1>Hi, I'm Tomi</h1>
+            <p>Web Developer </p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/tomi-salo-711324194/" target="_blank"><img style="margin: auto;" src="LinkedIn.png" height="50px" width="80px"></a>
+                <a href="https://github.com/Eezi" target="_blank"><img style="margin: auto;" src="githubb.png" height="50px" width="50px"></a>
+            </div>
+        </div>
+        
+
+    
+</div>
+<div id="section2">
+        
+        <div class="me">
+            <h1>A LITTLE BIT ABOUT ME</h1>
+            <img src="mina.jpg" alt="">
+            <p>Hey! My name is Tomi and I’m a web developer with a passion for frontend development. I’m currently a fourth year student at Metropolia University of Applied Sciences pursuing a degree in information and communications technology. I aspire towards a career that will allow me to channel my creativity through crafting fancy websites and engaging experiences.
+            </p>
+            <div class="iconit"><i class="fas fa-keyboard"><p>Web Developer</p>
+
+            </i><i class="fas fa-cogs"><p>Engineering</p></i><i class="fas fa-mountain"><p>Climbing</p></i>
+            </div> 
+            <div class="resume">
+                <p>CHECK OUT MY RESUME!</p>
+                <form action="Tomi Salo CV2020.pdf" target="_blank">
+                    <button type="submit" class="resume-btn">Grab A Copy</button>
+                </form>
+                <!--<button class="resume-btn">Grab A Copy
+                    <a class="resume-btn wp4 animated bounceIn" href="Tomi Salo CV2020.pdf" target="_blank">Grab A Copy</a>
+                </button>-->
+            </div>
+        </div>
+               
+</div>
+<div id="section3">
+    <h1 class="otsikko">SOME TECHNOLOGIES I'VE WORKED WITH:</h1>
+    <div class="logott">
+        <ul>
+            <li><img src="htm.png"></li>
+            <li><img src="css3-96.png"></li>
+            <li><img src="javascript-96.png"></li>
+            <li><img src="rea.png"></li>
+            <li><img src="python-96.png"></li>
+        </ul>
+    </div>
+    
+    <div>
+        <div class="project"><h1>SOME PROJECTS I'VE DONE:</h1></div>
+        <div class="kuvat">
+        
+            <a href="https://eezi.github.io/Budjetti-App/" target="_blank"><img src="budjetti.jpg"></a>
+            <img src="korjaamo.jpg">
+            <img src="laskin.jpg" height="300px">
+            <a href="https://eezi.github.io/Noppapeli/" target="_blank"><img src="noppa.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<footer>
+    <!-- Footer-->
+    <p>&copy; Tomi Salo 2020</p>
+  
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
