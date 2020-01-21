@@ -192,8 +192,7 @@ button a {
 }
 .logott  {
     padding-bottom: 10%;
-    padding-left: 36%;
-    width: 100%;
+    padding-left: 40%;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -348,7 +347,7 @@ svg {
   }
   
   #main{
-    transition:margin-left 0.5s;
+    transition:margin-left 0.1s;
     padding:20px;
     overflow:hidden;
     width:100%;
